@@ -18,19 +18,19 @@
   align-items: center;
   padding: 10px;
 }
-.bt{
-  padding: 10px ;
+.bt {
   margin-left: 700px;
-  padding-top: 10px;
-  box-sizing: 20px;
+  /* margin-right: 50px; */
   margin-top: 300px;
-  align-items: center;
-  border-color: aqua;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: medium;
-  box-shadow: 1pc;
+  padding-top: 100px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
-
 .bt:hover{
   color: rgb(119, 255, 0);
   background-color: red;
