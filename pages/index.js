@@ -83,13 +83,10 @@ export default function Home() {
             <>
               {/* Render other components here */}
               <Navbar isWalletConnected={isWalletConnected} accounts={accounts}/>
-              <h2>Other Components</h2>
+              {/* <h2>Other Components</h2> */}
             </>
           ) : (
             <>
-              <div>
-                <h2>Functionalities of this tool</h2>
-              </div>
               <button className={styles.bt} onClick={handleSiweClick}>Sign In</button>
               <div>{siweResult}</div>
             </>

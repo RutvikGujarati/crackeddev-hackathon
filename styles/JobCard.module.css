@@ -27,7 +27,15 @@
     gap: 10px;
     padding-bottom: 15px;
   }
-  
+  .h2{
+    color: burlywood;
+    margin-left: 500px;
+    border: 2px solid #ccc;
+    padding: 9px;
+    border-radius: 10px;
+    width: 462px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
   .button1 {
     margin-left: 650px;
     /* margin-right: 50px; */

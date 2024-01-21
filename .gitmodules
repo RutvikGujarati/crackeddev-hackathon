@@ -4,3 +4,11 @@
 [submodule "thirdweb-contracts/lib/chainlink"]
 	path = thirdweb-contracts/lib/chainlink
 	url = https://github.com/smartcontractkit/chainlink
+
+[submodule "contracts/lib/chainlink"]
+    path = contracts/lib/chainlink
+    url = https://github.com/smartcontractkit/chainlink
+
+[submodule "contracts/lib/forge-std"]
+    path = contracts/lib/forge-std
+    url = https://github.com/foundry-rs/forge-std

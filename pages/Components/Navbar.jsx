@@ -11,18 +11,14 @@ const Navbar = (isWalletConnected, showOtherComponents, userAddress ) => {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navList}>
-        {/* <Image src="/open.jpg"
-        width={50}
-        height={50}
-        /> */}
-         {/* {isWalletConnected && showOtherComponents && (
-          <li>
-             <span>Account: {userAddress}</span>
-          </li>
-        )} */}
-        <li>
+        {/* <li>
           <Link href="/" className={styles.navLink}>
             ⬅️Home
+          </Link>
+        </li> */}
+        <li>
+          <Link href="/home/jobs" className={styles.navLink}>
+            ⚒️jobs
           </Link>
         </li>
         <li>
@@ -35,11 +31,7 @@ const Navbar = (isWalletConnected, showOtherComponents, userAddress ) => {
             🗣️discuss
           </Link>
         </li> */}
-        <li>
-          <Link href="/home/jobs" className={styles.navLink}>
-            ⚒️jobs
-          </Link>
-        </li>
+        
       </ul>
     </nav>
   );
