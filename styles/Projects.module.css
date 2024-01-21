@@ -1,0 +1,98 @@
+/* styles/Projects.module.css */
+
+.topnav {
+  /* background-color: #333; */
+  overflow: hidden;
+}
+
+.search_container {
+  display: flex;
+  padding: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.search_input {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search_button {
+  background-color: #5e4caf;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Inside your CSS file, e.g., styles/Checkbox.css */
+
+.fileExtensionCheckbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.fileExtensionLabel {
+  margin-left: 8px; /* Adjust margin as needed */
+}
+
+.fileExtensionCheckbox input {
+  margin: 0;
+}
+
+.fileExtensionCheckbox input:checked + .fileExtensionLabel::before {
+  content: '\2713'; /* Unicode checkmark character */
+  font-size: 18px;
+  color: #4caf50; /* Adjust color as needed */
+}
+
+
+.filter_container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.filter_container label {
+  margin-right: 10px;
+}
+.text1{
+  color: blueviolet;
+}
+.filter_container select,
+.filter_container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.results_container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.results_container h2 {
+  color: #7cad1a;
+}
+
+.results_container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.results_container li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results_container li img {
+  max-width: 100px;
+  border-radius: 5px;
+}

@@ -1,0 +1,220 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "title",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "company",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "min_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "max_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "location_iso",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "job_type",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "degree_required",
+				"type": "bool"
+			},
+			{
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "url",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "created_at",
+				"type": "string"
+			}
+		],
+		"name": "addJob",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "title",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "company",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "min_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "max_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "location_iso",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "job_type",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "degree_required",
+				"type": "bool"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "url",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "created_at",
+				"type": "string"
+			}
+		],
+		"name": "JobAdded",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "jobCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "jobs",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "title",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "company",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "min_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "max_salary_usd",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "location_iso",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "job_type",
+				"type": "string"
+			},
+			{
+				"internalType": "bool",
+				"name": "degree_required",
+				"type": "bool"
+			},
+			{
+				"internalType": "string",
+				"name": "description",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "url",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "created_at",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

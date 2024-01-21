@@ -1,0 +1,88 @@
+/* styles.css */
+.job_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 20px;
+    margin-left: 10px;
+  }
+  .job_container {
+    margin-bottom: 20px; /* Add some spacing between job cards and the button */
+  }
+  
+  .button {
+    /* margin-left: 700px; */
+    margin-right: 400px;
+    padding-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .div{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .button1 {
+    margin-left: 650px;
+    /* margin-right: 50px; */
+    padding-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #a09845;
+  }
+  .button1:hover {
+    background-color: #a09845;
+  }
+  .topCornerLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 50px; /* Adjust the size as needed */
+  max-height: 50px; /* Adjust the size as needed */
+}
+  .text1{
+    color: blue;
+  }
+  .text2{
+    color: red;
+  }
+  .job_card {
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    width: 362px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* You can add more styling as needed */
+  .logo {
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .job_details {
+    margin-bottom: 12px;
+  }
+  
+  .job_description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 80px;
+    color: #555;
+  }
